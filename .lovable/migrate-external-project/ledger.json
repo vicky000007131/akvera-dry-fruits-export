@@ -1,0 +1,18 @@
+{
+  "source": "github:TridevSharma1/Akvera-Universal",
+  "capabilities": [
+    { "capability": "application code and routes", "source": "public GitHub repository", "outcome": "migrate", "status": "in_progress", "next_action": "Adapt all portfolio and demo dashboard pages to the existing TanStack app." },
+    { "capability": "application schema", "source": "none detected", "outcome": "not_applicable", "status": "verified", "next_action": null },
+    { "capability": "application records", "source": "mock data in source code; no production record store detected", "outcome": "migrate", "status": "in_progress", "next_action": "Preserve the included illustrative mock content." },
+    { "capability": "auth identities", "source": "no authentication provider or user store detected", "outcome": "not_applicable", "status": "verified", "next_action": null },
+    { "capability": "authorization", "source": "no access-control system detected; dashboard login is explicitly a mock", "outcome": "migrate", "status": "in_progress", "next_action": "Preserve mock-only dashboard behavior and communicate its limits." },
+    { "capability": "uploaded file bytes", "source": "repository has three Lovable asset pointers but no image bytes", "outcome": "migrate", "status": "pending", "next_action": "Recover and add the three referenced images if their public source URLs are accessible." },
+    { "capability": "external providers", "source": "none detected", "outcome": "not_applicable", "status": "verified", "next_action": null },
+    { "capability": "public endpoints", "source": "none detected", "outcome": "not_applicable", "status": "verified", "next_action": null },
+    { "capability": "callbacks and webhooks", "source": "none detected", "outcome": "not_applicable", "status": "verified", "next_action": null },
+    { "capability": "schedules and triggers", "source": "none detected", "outcome": "not_applicable", "status": "verified", "next_action": null },
+    { "capability": "secrets", "source": "no required environment variables detected", "outcome": "not_applicable", "status": "verified", "next_action": null },
+    { "capability": "cutover", "source": "no existing production database, domain, or service detected", "outcome": "not_applicable", "status": "verified", "next_action": null },
+    { "capability": "verification", "source": "target preview", "outcome": "verify", "status": "pending", "next_action": "Run the build, tests, and browser checks for the home page, product enquiry, and dashboard." }
+  ]
+}

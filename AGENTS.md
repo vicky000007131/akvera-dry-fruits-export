@@ -28,3 +28,10 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Application structure
+- Keep the imported Akvera Universal experience in TanStack file routes, with shared mock state and reusable public/admin page modules, so the original portfolio remains navigable without a separate framework.
+- Keep the six primary public page views in a shared dry-fruit page module and reuse the existing shell, catalogue types and demo provider so catalogue edits and enquiries remain connected to the original admin demo.
+- Serve photography through root-relative public image paths so deployments do not depend on another project's asset host.
+- Retain session-only demo enquiries and clearly disclose that they do not send email, because the supplied application has no production submission service.
+- Keep catalogue and insights parent routes as Outlet layouts with index children so product/article detail URLs render their own content rather than the listing.
